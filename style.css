@@ -1,0 +1,75 @@
+.Edition{
+    text-align:center;
+}
+.Head{
+    text-align:center;
+    font-family:'Franklin Gothic Medium', serif;
+}
+
+.Particulars{
+    
+    display:flex;
+    Justify-content:space-evenly;
+}
+.hori1{
+    color:black;
+    padding-bottom: 10px;
+}
+.hori2{
+    color:black;
+    padding-bottom: 10px;
+}
+.hori3, .hori4 {
+    border: none;
+    height: 5px;
+    background-color: black;
+    margin: 10px auto;
+    width: 20%;
+}
+.maintitle{
+    font-family: 'Roboto Slab', serif;
+    font-weight: 900; 
+    font-size: 96px;
+    border-bottom: 5px;
+    text-align:center;
+}
+.main{
+    order: none;
+    height: 5px; 
+    width: 40%;
+    margin: 10px auto; 
+    background: repeating-linear-gradient(
+        to right,
+        black,
+        black 10px,
+        transparent 10px,
+        transparent 20px
+    ); 
+}
+.subtitle{
+    text-align: center;
+    
+}
+.newspaper-container > .poster {
+    padding-left: 50px;
+}
+
+@media (max-width: 600px) {
+    .newspaper-container > .poster {
+        padding-left: 0; 
+        text-align: center; 
+    }
+    
+    img {
+        max-width: 100%; 
+        height: auto; 
+        display: block; 
+        margin: auto;
+    }
+}
+
+
+
+*{
+    background-color: rgb(196, 186, 160);
+}
